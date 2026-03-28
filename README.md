@@ -105,6 +105,11 @@ REVIEW_PACKET.md
 
 ## ▶️ How to Run
 
+###Run Demo Script
+```
+python run_demo_validation.py
+```
+
 ### 1. Install dependencies
 
 ```
