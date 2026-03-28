@@ -1,2 +1,0 @@
-[REJECT] 2026-03-28 10:47:12.937251 | SignalID=3 | Dataset=1 | Reason=Invalid value: future timestamp
-[REJECT] 2026-03-28 10:47:12.992158 | SignalID=3 | Dataset=1 | Reason=Invalid value: future timestamp  
