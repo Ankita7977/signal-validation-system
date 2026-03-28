@@ -129,6 +129,71 @@ http://127.0.0.1:8000/docs
 ```
 
 ---
+## 🧪 Example API Testing
+
+Use the following sample inputs to test the `/validate` endpoint from Swagger UI (`/docs`).
+
+---
+
+### ✅ 1. Valid Signal (ALLOW)
+
+```json
+{
+  "id": 1,
+  "time": "2025-03-25 10:30:00",
+  "lat": 28.6,
+  "lon": 77.2,
+  "type": "movement",
+  "value": 10,
+  "dataset_id": "1"
+}
+```
+
+**Expected Output:**
+
+* status: ALLOW
+* risk: LOW
+* action: PROCEED
+
+---
+
+### ⚠️ 2. Suspicious Signal (FLAG)
+
+```json
+{
+  "id": 2,
+  "time": "2025-03-25 10:30:00",
+  "lat": 28.6,
+  "lon": 77.2,
+  "type": "movement",
+  "value": null,
+  "dataset_id": "2"
+}
+```
+
+**Expected Output:**
+
+* status: FLAG
+* risk: HIGH
+* action: REVIEW
+
+---
+
+### ❌ 3. Invalid Signal (REJECT)
+
+```json
+{
+  "id": 3,
+  "time": "2035-01-01 10:00:00",
+  "lat": 28.6,
+  "lon": 77.2,
+  "type": "movement",
+  "value": 20,
+  "dataset_id": "1"
+}
+```
+
+---
 
 ## 🧠 Key Guarantee
 
