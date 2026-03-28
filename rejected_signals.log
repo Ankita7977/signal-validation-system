@@ -1,23 +1,2 @@
-2026-03-25 13:09:20.582943 | Signal ID: 2 | Reason: Missing timestamp
-2026-03-25 13:09:20.583513 | Signal ID: 3 | Reason: Latitude out of range
-2026-03-25 13:09:20.583775 | Signal ID: 4 | Reason: Invalid feature type
-2026-03-26 09:22:59.113778 | 2 | None | Missing dataset_id
-2026-03-26 09:22:59.114266 | 3 | 1 | Future timestamp not allowed
-2026-03-26 09:22:59.114947 | 4 | 1 | Latitude out of range
-2026-03-26 09:22:59.115211 | 5 | 1 | Value must be number or null
-2026-03-26 09:27:33.511565 | 2 | None | Missing dataset_id
-2026-03-27 11:54:24.831069 | 2 | 2 | Missing latitude
-2026-03-27 12:07:21.044914 | 2 | 2 | Missing latitude
-[REJECT] 2026-03-27 12:11:17.721438 | Signal ID: 2 | Dataset: 2 | Reason: Missing latitude
-2026-03-27 12:16:44.094630 | Signal ID: 2 | Dataset: 2 | Reason: Missing latitude
-2026-03-27 12:17:25.122903 | Signal ID: 2 | Dataset: 2 | Reason: Missing latitude
-2026-03-27 12:40:09.746913 | Signal ID: 2 | Dataset: 2 | Reason: Missing latitude
-2026-03-27 12:44:45.464674 | Signal ID: 2 | Dataset: 2 | Reason: Missing latitude
-2026-03-27 12:59:49.890822 | Signal ID: 2 | Dataset: 2 | Reason: Missing latitude
-2026-03-27 13:01:45.645223 | Signal ID: 2 | Dataset: 2 | Reason: Missing latitude
-2026-03-27 13:04:59.553498 | Signal ID: 2 | Dataset: 2 | Reason: Missing latitude
-2026-03-28 09:28:28.943084 | Signal ID: 2 | Dataset: 2 | Reason: Missing latitude
-[REJECT] 2026-03-28 09:59:46.562962 | SignalID=3 | Dataset=1 | Reason=Invalid value: future timestamp
-[REJECT] 2026-03-28 10:26:03.229173 | SignalID=3 | Dataset=1 | Reason=Invalid value: future timestamp
 [REJECT] 2026-03-28 10:47:12.937251 | SignalID=3 | Dataset=1 | Reason=Invalid value: future timestamp
 [REJECT] 2026-03-28 10:47:12.992158 | SignalID=3 | Dataset=1 | Reason=Invalid value: future timestamp
