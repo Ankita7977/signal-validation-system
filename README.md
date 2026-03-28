@@ -8,7 +8,7 @@ It validates incoming signals, assigns confidence scores, and enforces decision 
 
 ---
 
-## 🎯 Objective
+## 🎯 Objective 
 
 To build a **reliable and strict validation system** that:
 
